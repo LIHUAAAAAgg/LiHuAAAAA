@@ -1,0 +1,68 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFDD59; /* 新的背景色 */
+    color: #333; /* 主要文字顏色 */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #FF5733; /* 標題顏色 */
+}
+
+/* Section styles */
+section.experience {
+    margin-bottom: 30px;
+}
+
+section.experience h2 {
+    font-size: 2rem;
+    color: #5BC0EB; /* 標題顏色 */
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.experience-item {
+    display: inline-block;
+    width: calc(33.33% - 20px); /* 每個項目佔版面的三分之一 */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #F7CAC9; /* 每個項目的背景色 */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.experience-item:last-child {
+    margin-right: 0;
+}
+
+.experience-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 圖片陰影 */
+}
+
+.experience-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ff0000; /* 文字顏色 */
+}

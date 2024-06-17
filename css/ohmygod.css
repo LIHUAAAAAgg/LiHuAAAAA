@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* 背景顏色 */
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* 容器背景顏色 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 隱影 */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 36px;
+    color: #4CAF50; /* 大標題顏色 */
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 5px;
+    background-color: #4CAF50; /* 大標題底部條紋顏色 */
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FF5722; /* 小標題顏色 */
+}
+
+.section-content {
+    line-height: 1.6;
+}
+
+.section-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-image img {
+    width: 100%; /* 讓圖片寬度填滿其容器 */
+    max-width: 800px; /* 最大寬度為800px */
+    height: auto; /* 根據寬度自動調整高度 */
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* 圖片陰影 */
+}

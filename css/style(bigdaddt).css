@@ -1,0 +1,107 @@
+h1 {
+    text-align: center;
+    color: #ff6347;
+    background: linear-gradient(135deg, #ff6347, #ffcc33);
+    padding: 15px;
+    border: 5px solid #ffcc33;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 2.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: color-change 4s infinite;
+}
+    
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffebcd; /* 設置頁面背景顏色 */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* 將內容置中 */
+}
+
+.title {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff6347, #ffcc33);
+    border: 3px solid #ff6347;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: color-change 4s infinite;
+    font-family: "Microsoft JhengHei", Arial, sans-serif; /* 使用微軟正黑體 */
+}
+
+
+@keyframes color-change {
+    0% {
+        color: #ff6347;
+    }
+    25% {
+        color: #ffcc33;
+    }
+    50% {
+        color: #7fffd4;
+    }
+    75% {
+        color: #ff69b4;
+    }
+    100% {
+        color: #ff6347;
+    }
+}
+
+h2 {
+    color: #4682b4;
+    border-left: 5px solid #4682b4;
+    padding-left: 10px;
+    background-color: #e6f2ff;
+    border-radius: 4px;
+    animation: color-change 4s infinite;
+    font-family: "Microsoft JhengHei", Arial, sans-serif; /* 使用微軟正黑體 */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #f1f8e9;
+    border-left: 5px solid #aed581;
+    border-radius: 8px;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #4682b4;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+.school-image {
+    max-width: 300%; 
+    height: auto; 
+}

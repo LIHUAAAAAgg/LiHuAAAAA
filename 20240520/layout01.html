@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用DIV來排版</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+    body{
+        margin: 0px;
+    }
+    #container {
+        width: 80%;
+        background-color: rgb(210, 235, 250);
+        margin: 0px auto;
+    }
+    #header{
+        height: 100px;
+        background-color: aliceblue;
+    }
+    #nav{
+        height: 100px;
+        background-color: lightcoral;
+    }
+    #aside{
+        min-height: 800px;
+        width: 20%;
+        float: left;
+        background-color: rgb(211, 210, 250);
+    }
+    #section{
+        min-height: 800px;
+        width: 80%;
+        float: left;
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer{
+        height: 200px;
+        clear: both;
+        background-color: aqua;
+    }
+    .products{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pic{
+        width: 360px;
+        height: 209px;
+        background-image: url(img/coffee.png);
+        background-position: 0px 10px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .item-title{
+        color: white;
+        font-size: 6em;
+        font-family:'Righteous', courier, monospace;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <div id="nav"></div>
+        <div id="main">
+            <div id="aside"></div>
+            <div id="section">
+                <div class="products">
+                    <div class="item">
+                        <div class="pic">
+                            <h1 class="item-title">咖啡</h1>
+                        </div> 
+                        <h1>就要咖啡</h1>
+                        <P>讚讚咖啡，帶你飛</P>
+                    </div>  
+                    <div class="item">
+                        <div class="pic">
+                            <h1 class="item-title">咖啡</h1>
+                        </div> 
+                        <h1>就要咖啡</h1>
+                        <P>讚讚咖啡，帶你飛</P>
+                    </div>  
+                    <div class="item">
+                        <div class="pic">
+                            <h1 class="item-title">咖啡</h1>
+                        </div> 
+                        <h1>就要咖啡</h1>
+                        <P>讚讚咖啡，帶你飛</P>
+                    </div>  
+                    <div class="item">
+                        <div class="pic">
+                            <h1 class="item-title">咖啡</h1>
+                        </div> 
+                        <h1>就要咖啡</h1>
+                        <P>讚讚咖啡，帶你飛</P>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
